@@ -20,7 +20,7 @@ Puedes encontrar los cursos de Erick Wendel [aquí](https://cursos.erickwendel.c
       }
    ```
 
-De esta manera creamos un script `dev` que podemos ejecutar con el comando `node run dev`.
+   De esta manera creamos un script `dev` que podemos ejecutar con el comando `node run dev`.
 
 3. Como conclusión de esta clase, puedo decir que ésta fue una guía muy simple para iniciar tu primera aplicación _Hello World!_ Con Noje.js
 
