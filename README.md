@@ -23,7 +23,7 @@ You can find Erick Wendel's courses [here](https://cursos.erickwendel.com.br).
       "dev": "node index.js"
     }
   ```
-  
+
   This way we creat a `dev` script we can run with the command `node run dev`.
 
 3. As a final thought of this class I can say this was a very simple guide to star up your _Hello World!_ application with Noje.js
