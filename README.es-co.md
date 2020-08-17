@@ -14,13 +14,13 @@ Puedes encontrar los cursos de Erick Wendel [aquí](https://cursos.erickwendel.c
 
 2. Para acelerar la escritura de los comandos de la consola, podemos crear _predefine scripts_ modificando el miembro `"scripts"` del archivo `package.json`.
 
-```json
-   "scripts": {
-     "dev": "nodo index.js"
-   }
-```
+   ```json
+      "scripts": {
+        "dev": "nodo index.js"
+      }
+   ```
 
-De esta manera creamos un script `dev` que podemos ejecutar con el comando` node run dev`.
+De esta manera creamos un script `dev` que podemos ejecutar con el comando `node run dev`.
 
 3. Como conclusión de esta clase, puedo decir que ésta fue una guía muy simple para iniciar tu primera aplicación _Hello World!_ Con Noje.js
 
