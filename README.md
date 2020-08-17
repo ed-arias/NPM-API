@@ -1,5 +1,9 @@
-You can read this in [Portuguese]() or [Spanish]() too. <br>
+You can read this in [Portuguese][README.pt-br.md] or [Spanish][README.es-co.md] too. <br>
 You can find Erick Wendel's courses [here](https://cursos.erickwendel.com.br).
+
+[README.es-co.md]:https://github.com/ed-arias/NPM-API/blob/master/README.es-co.md
+[README.pt-br.md]:https://github.com/ed-arias/NPM-API/blob/master/README.pt-br.md
+[README.md]:https://github.com/ed-arias/NPM-API/blob/master/README.md
 
 # Inmersion in APIs development with Node.js by #NodeBR!
 ## Module 0 - Introduction

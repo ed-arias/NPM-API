@@ -1,5 +1,9 @@
-Puedes leer tambien en [Portugués]() o [Inglés](). <br>
+Puedes leer tambien en [Portugués][README.pt-br.md] o [Inglés][README.md]. <br>
 Puedes encontrar los cursos de Erick Wendel [aquí](https://cursos.erickwendel.com.br).
+
+[README.es-co.md]:https://github.com/ed-arias/NPM-API/blob/master/README.es-co.md
+[README.pt-br.md]:https://github.com/ed-arias/NPM-API/blob/master/README.pt-br.md
+[README.md]:https://github.com/ed-arias/NPM-API/blob/master/README.md
 
 # Inmersión en desarrollo de APIs con Node.js By #NodeBR!
 ## Modulo 0 - Introducción
