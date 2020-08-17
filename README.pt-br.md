@@ -17,11 +17,13 @@ You can find Erick Wendel's courses [here](https://cursos.erickwendel.com.br).
 - And finally running the project with `node index.js`.
 
 2. To speed up the console commands typing we can create _predefine scripts_ modifying the `"scripts"` member of the `package.json` file.
-```
-  "scripts": {
-    "dev": "node index.js"
-  }
-```
-This way we created a `dev` script we can run with the command `node run dev`.
+
+  ```json
+    "scripts": {
+      "dev": "node index.js"
+    }
+  ```
+
+  This way we created a `dev` script we can run with the command `node run dev`.
 
 3. As a final thought of this class I can say this was a very simple guide to star up your _Hello World!_ application with Noje.js
