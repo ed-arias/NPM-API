@@ -1,4 +1,6 @@
-You can read this in [Espanhol][README.es-co.md] ou [Inglês][README.md] too.
+[![Readme Spanish](https://img.shields.io/badge/README-es--CO-blueviolet?style=for-the-badge)][README.es-co.md]
+[![Readme English](https://img.shields.io/badge/README-EN--US-blue?style=for-the-badge)][README.md]
+
 You can find Erick Wendel's courses [here](https://cursos.erickwendel.com.br).
 
 [README.es-co.md]:https://github.com/ed-arias/NPM-API/blob/master/README.es-co.md

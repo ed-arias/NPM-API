@@ -1,4 +1,6 @@
-You can read this in [Portuguese][README.pt-br.md] or [Spanish][README.es-co.md] too. <br>
+[![Readme Portuguese](https://img.shields.io/badge/README-pt--BR-brightgreen?style=for-the-badge)][README.pt-br.md]
+[![Readme Spanish](https://img.shields.io/badge/README-es--CO-blueviolet?style=for-the-badge)][README.es-co.md]
+
 You can find Erick Wendel's courses [here](https://cursos.erickwendel.com.br).
 
 [README.es-co.md]:https://github.com/ed-arias/NPM-API/blob/master/README.es-co.md
@@ -18,11 +20,11 @@ You can find Erick Wendel's courses [here](https://cursos.erickwendel.com.br).
 
 2. To speed up the console commands typing we can create _predefine scripts_ modifying the `"scripts"` member of the `package.json` file.
 
-  ```json
-    "scripts": {
-      "dev": "node index.js"
-    }
-  ```
+   ```json
+      "scripts": {
+         "dev": "nodo index.js"
+      }
+   ```
 
   This way we creat a `dev` script we can run with the command `node run dev`.
 

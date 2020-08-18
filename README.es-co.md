@@ -1,12 +1,15 @@
-Puedes leer tambien en [Portugués][README.pt-br.md] o [Inglés][README.md]. <br>
-Puedes encontrar los cursos de Erick Wendel [aquí](https://cursos.erickwendel.com.br).
+[![Readme Portuguese](https://img.shields.io/badge/README-pt--BR-brightgreen?style=for-the-badge)][README.pt-br.md]
+[![Readme English](https://img.shields.io/badge/README-EN--US-blue?style=for-the-badge)][README.md]
+
+Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
 
 [README.es-co.md]:https://github.com/ed-arias/NPM-API/blob/master/README.es-co.md
 [README.pt-br.md]:https://github.com/ed-arias/NPM-API/blob/master/README.pt-br.md
 [README.md]:https://github.com/ed-arias/NPM-API/blob/master/README.md
+[erick wendels courses]: https://cursos.erickwendel.com.br
 
 # Inmersión en desarrollo de APIs con Node.js By #NodeBR!
-## Modulo 0 - Introducción
+## Módulo 0 - Introducción
 ### Iniciando un proyecto Node.js
 
 1. En esta lección aprendí a crear un nuevo proyecto en Node.js usando:
@@ -20,7 +23,7 @@ Puedes encontrar los cursos de Erick Wendel [aquí](https://cursos.erickwendel.c
 
    ```json
       "scripts": {
-        "dev": "nodo index.js"
+         "dev": "nodo index.js"
       }
    ```
 
@@ -28,4 +31,15 @@ Puedes encontrar los cursos de Erick Wendel [aquí](https://cursos.erickwendel.c
 
 3. Como conclusión de esta clase, puedo decir que ésta fue una guía muy simple para iniciar tu primera aplicación _Hello World!_ Con Noje.js
 
-## Modulo 1 - Sincronia de funciones Javascript 
+## Módulo 1 - Sincronía de funciones Javascript
+
+1. En este video entendi como funcionan los diferente componentes de Node.js y el flujo de datos entre ellos.<br>
+
+   - Nuestra aplicación Javascript
+   - El V8 Engine (virtual machine)
+   - El node.js bindings (Node API): que es el encargado de optimizar el codigo Javascript y traducirlo a lenguage C/C++
+   - La libreria LIBUV (ASYNC IO)
+      - Event queue
+      - Event loop
+      - Worker threads
+
