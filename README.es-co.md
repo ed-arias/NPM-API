@@ -44,8 +44,8 @@ Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
       - Event loop
       - Worker threads
 
-   > **Material de Referencia**<br>
-   > - [Gerenciando o fluxo assíncrono de operações em NodeJS](https://imasters.com.br/desenvolvimento/gerenciando-o-fluxo-assincrono-de-operacoes-em-nodejs)
+> **Material de Referencia**<br>
+> - [Gerenciando o fluxo assíncrono de operações em NodeJS](https://imasters.com.br/desenvolvimento/gerenciando-o-fluxo-assincrono-de-operacoes-em-nodejs)
 
 ### Aula 2 - Entendiendo el ciclo de vida de aplicaciones Javascript
 1. Funciones que dependen de ejecución externa seran ejecutadas en background
@@ -53,3 +53,13 @@ Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
 3. Es importante mantener le orden de tu ejecucion para evitar problemas
 
 ### Aula 3 - Trabajando con callbacks
+1. Vamos a crear un projecto para simular los llamados a BD y de esa manera generar errores de sincronia de las instrucciones con la funcion `setTimeout`.
+   
+   ```javascript
+      setTimeout(function() {
+
+      }, timeout);
+     ```
+2. Los valores `null`, `""` y `0` son equivalentes a `false`
+3. En esta clase aprendimos que con las funciones `callback` solucionamos los problemas de sincronia,
+   pero se genera otro problema que son las funciones anidadas tambien llamado como >callback hell
