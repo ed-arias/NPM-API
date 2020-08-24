@@ -62,4 +62,54 @@ Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
      ```
 2. Los valores `null`, `""` y `0` son equivalentes a `false`
 3. En esta clase aprendimos que con las funciones `callback` solucionamos los problemas de sincronia,
-   pero se genera otro problema que son las funciones anidadas tambien llamado como >callback hell
+   pero se genera otro problema que son las funciones anidadas tambien llamado como ***callback hell***
+
+### Aula 4 - Introduccion a Promises
+1. Entendiendo el ciclo de vida de las Promises
+   - **Pending:** Estado inicial, todavia no terminó o aun no ha sido rechazado
+   - **Fulfilled:** Cuando ejecutó todas las operaciones con éxito
+   - **Rejected:** Cuando la operación falló
+
+### Aula 5 - Refactorando los Callbacks a Promises
+1. En esta clase aprendi a refactorar las funciones `callback` y convertirlas en *promises*. 
+   Esta solución me parece mucho mas organizada y en la que se pueden controlar los errores de una manera mas sencilla.
+2. Existe una forma de convertir las `callbacks` en `promises` con la importacion `const util = require("util")` así:
+   
+   ```javascript
+      const obterEnderecoAsyc = util.promisify(obterEndereco)
+   ```
+   > Esta operacion se puede realizar siempre y cuando la funcion callback respete el estandar `return callback(error, dato)` 
+3. Aunque las promises son mas faciles de trabajar tambien tenemos el problema de funciones anidadas
+
+### Aula 6 - Introduccion a la resolucion de Promises con async/await
+1. Promises - ASYNC/AWAIT
+   - Facilita a visualizacion del flujo de funciones
+   - **No** altera el performance de la aplicacion
+   - Viene de C#
+   - Usar apenas cuando se necesite tratar la respuesta de la llamada
+
+### Aula 7 - Resolucion de promises con ASYNC/AWAIT 
+1. En esta clase aprendi a trabajar con async/await y promises de manera que el flujo de datos es bastante parecido a java o C#
+2. Aunque ya puedo controlar la sincronia de los datos puedo mejorar el rendimiento del programa.
+
+   Por ejemplo:
+   - Si `b` y `c` dependen de `a` entonces espero obtener `a` y luego calculo `b` y `c` al mismo tiempo.
+   
+   ```javascript
+   const a = await getA()
+   const d = await Promise.all([
+            obterB(a.id),
+            obterC(a.id)
+        ])
+   const b = d[0]
+   const c = d[1]
+   ```
+### Aula 8 - Tranalhando com eventos com a classe EventEmitter
+1. A promise vai servir para executar uma unica vez 
+2. Os eventos a gente usa para ações continuas:
+   - Manipular o click
+   - Manipular arquivo, entre outros
+
+## Módulo 2 - Manipulação de listas
+### Aula 1 - Introdução ao capitulo
+1. 
