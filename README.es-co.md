@@ -112,4 +112,6 @@ Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
 
 ## Módulo 2 - Manipulação de listas
 ### Aula 2 - Manipulando listas com For/ForIn/ForOf
-1. 
+1. Nessa aula aprendi a instalar um modulo `axios` do NodeJS com o siguinte comando `npm install axios`.
+2. Testamos as diferentes formas de percorrer os dados num array
+
