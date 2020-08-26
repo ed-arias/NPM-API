@@ -111,5 +111,5 @@ Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
    - Manipular arquivo, entre outros
 
 ## Módulo 2 - Manipulação de listas
-### Aula 1 - Introdução ao capitulo
+### Aula 2 - Manipulando listas com For/ForIn/ForOf
 1. 
