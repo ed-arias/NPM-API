@@ -115,3 +115,9 @@ Puedes encontrar los cursos de Erick Wendel [aquí][erick wendels courses].
 1. Nessa aula aprendi a instalar um modulo `axios` do NodeJS com o siguinte comando `npm install axios`.
 2. Testamos as diferentes formas de percorrer os dados num array
 
+## Módulo 5 - 
+### Aula 3
+1. Instalar sequilize que permite convertir objetos a tablas en bd
+   `npm install sequelize`
+2. instalar pg y pg-hstore que es el driver de la bd
+   `npm install pg-hstore pg`
